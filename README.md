@@ -16,6 +16,8 @@ MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection
 | PVTv2-B5        | 0.888 | 0.860                | 0.041 | 0.876     | 0.943 |0.925     | 0.893                | 0.017 | 0.903     | 0.971 | 0.902  | 0.844                | 0.017 | 0.862     | 0.957 | 0.903 | 0.871                | 0.027 | 0.889     | 0.952 |
 
 
+For the prediction results and weights of the highest performing model (PvtV2B4_MSRNet), please visit [Google Drive] (https://drive.google.com/drive/folders/1VfFTDPNFxOVz9ReY2AC0qq65FlRsSQhs?usp=drive_link)
+
 ## Preparing Datasets
 In this research, we utilized four benchmark datasets for camouflaged object detection (CAMO, CHAMELEON, COD10K, and NC4K).
 
