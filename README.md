@@ -17,10 +17,12 @@ MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection
 
 
 ## Preparing Datasets
-In this research, we utilized four benchmark datasets for camouflaged object detection (CAMO, CHAMELEON, COD10K, NC4K).
+In this research, we utilized four benchmark datasets for camouflaged object detection (CAMO, CHAMELEON, COD10K, and NC4K).
 
 After downloading all datasets, you need to create a file named "dataset.yaml" and place it in the same directory as the main code folder.  
+
 The dataset.yaml file will include the paths for your Train and Test datasets. Please ensure that you place the datasets in the corresponding paths as you specified in the dataset.yaml file. 
+
 Your dataset.yaml file should look something like this:
 
 ```yaml
@@ -74,10 +76,7 @@ nc4k:
 ## Evaluation
 
 ```shell
-# ICOD
 python main_for_image.py --config configs/icod_train.py --model-name <MODEL_NAME> --evaluate --load-from <TRAINED_WEIGHT>
-# VCOD
-python main_for_video.py --config configs/vcod_finetune.py --model-name <MODEL_NAME> --evaluate --load-from <TRAINED_WEIGHT>
 ```
 
 
