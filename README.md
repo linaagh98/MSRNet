@@ -1,17 +1,24 @@
 # MSRNet
 MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection
 
+
+
+## MSRNet Performance Results
+
+| Backbone        | CAMO-TE |                      |       |           |       |CHAMELEON |                      |       | COD10K-TE |                      |       | NC4K  |                      |       |
+| --------------- | ------- | -------------------- | ----- | ----------|-------|--------- | -------------------- | ----- | --------- | -------------------- | ----- | ----- | -------------------- | ----- |
+|                 | $S_m$   | $F^{\omega}_{\beta}$ | MAE   |$F_{\beta}$|$E_{m}$|$S_m$     | $F^{\omega}_{\beta}$ | MAE   | $S_m$     | $F^{\omega}_{\beta}$ | MAE   | $S_m$ | $F^{\omega}_{\beta}$ | MAE   |
+| ResNet-50       | 0.816   | 0.754                | 0.071 |           |       |0.908     | 0.858                | 0.021 | 0.861     | 0.768                | 0.026 | 0.874 | 0.816                | 0.037 |
+| EfficientNet-B1 | 0.848   | 0.803                | 0.056 |           |       |0.916     | 0.870                | 0.020 | 0.863     | 0.773                | 0.024 | 0.876 | 0.823                | 0.036 |
+| EfficientNet-B4 | 0.867   | 0.824                | 0.046 |           |       |0.911     | 0.865                | 0.020 | 0.875     | 0.797                | 0.021 | 0.884 | 0.837                | 0.032 |
+| PVTv2-B2        | 0.874   | 0.839                | 0.047 |           |       |0.922     | 0.884                | 0.017 | 0.887     | 0.818                | 0.019 | 0.892 | 0.852                | 0.030 |
+| PVTv2-B3        | 0.885   | 0.854                | 0.042 |           |       |0.927     | 0.898                | 0.017 | 0.895     | 0.829                | 0.018 | 0.900 | 0.861                | 0.028 |
+| PVTv2-B4        | 0.888   | 0.859                | 0.040 |           |       |0.925     | 0.897                | 0.016 | 0.898     | 0.838                | 0.017 | 0.900 | 0.865                | 0.028 |
+| PVTv2-B5        | 0.889   | 0.857                | 0.041 |           |       |0.924     | 0.885                | 0.018 | 0.898     | 0.827                | 0.018 | 0.903 | 0.863                | 0.028 |
+
+
 ## Preparing Datasets
-In this research, we utilized four benchmark datasets for camouflaged object detection (CAMO, CHAMELEON, COD10K, NC4K). 
-You can download the dataset from the following links: 
-
-CAMO: https://www.kaggle.com/datasets/ivanomelchenkoim11/camo-dataset
-
-CHAMELEON:
-
-COD10K: https://www.kaggle.com/datasets/getcam/cod10k?resource=download
-
-NC4K:
+In this research, we utilized four benchmark datasets for camouflaged object detection (CAMO, CHAMELEON, COD10K, NC4K).
 
 After downloading all datasets, you need to create a file named "dataset.yaml" and place it in the same directory as the main code folder.  
 The dataset.yaml file will include the paths for your Train and Test datasets. Please ensure that you place the datasets in the corresponding paths as you specified in the dataset.yaml file. 
