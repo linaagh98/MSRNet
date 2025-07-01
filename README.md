@@ -1,7 +1,7 @@
 # MSRNet
 MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection
 
-![Methodology](https://github.com/linaagh98/MSRNet/blob/main/images/Methodology%20Diagram.png?raw=true)
+![Methodology](MethodologyDiagram.png)
 
 ## MSRNet Performance Results
 
