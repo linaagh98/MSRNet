@@ -68,7 +68,7 @@ nc4k:
 ```
 
 
-## Install Requirements
+## Installing Requirements
 
 * torch==2.1.2
 * torchvision==0.16.2
@@ -83,8 +83,6 @@ python main_for_image.py --config configs/icod_train.py --model-name <MODEL_NAME
 
 
 ## Training
-
-### Image Camouflaged Object Detection
 
 ```shell
 python main_for_image.py --config configs/icod_train.py --pretrained --model-name EffB1_MSRNet
