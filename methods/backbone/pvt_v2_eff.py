@@ -1,3 +1,5 @@
+#Author: Lart Pang (https://github.com/lartpang)  
+
 import math
 from functools import partial
 
