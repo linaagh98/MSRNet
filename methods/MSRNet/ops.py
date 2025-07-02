@@ -1,4 +1,5 @@
-# -*- coding: utf-8 -*-
+#Author: Lart Pang (https://github.com/lartpang) 
+
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
