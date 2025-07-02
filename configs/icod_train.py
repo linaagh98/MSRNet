@@ -1,3 +1,5 @@
+# Original Author: Lart Pang (https://github.com/lartpang) 
+
 has_test = True
 deterministic = True
 use_custom_worker_init = True
