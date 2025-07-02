@@ -1,3 +1,5 @@
+# Original Author: Lart Pang (https://github.com/lartpang) 
+
 _base_ = ["icod_train.py"]
 
 has_test = False
