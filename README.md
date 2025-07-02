@@ -96,3 +96,5 @@ python main_for_image.py --config configs/icod_train.py --pretrained --model-nam
 > [!note]
 > These command-lines will not save the final predection images of the trained model, to save the predection sesults of your traind model add --save-results to your command-line. 
 
+## Acknowledgments  
+This project builds upon the work of [Lart Pang](https://github.com/lartpang), incorporating key modifications to the decoding strategy and input scales to enhance its ability to detect small and multiple camouflaged objects. 
