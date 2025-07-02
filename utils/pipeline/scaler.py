@@ -1,3 +1,5 @@
+#Author: Lart Pang (https://github.com/lartpang) 
+
 from functools import partial
 from itertools import chain
 
