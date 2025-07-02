@@ -1,3 +1,4 @@
+#Author: Lart Pang (https://github.com/lartpang) 
 from torch.utils.tensorboard import SummaryWriter
 
 
