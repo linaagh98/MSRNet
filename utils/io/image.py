@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2021/5/17
-# @Author  : Lart Pang
-# @GitHub  : https://github.com/lartpang
+#Author: Lart Pang (https://github.com/lartpang) 
+
 import cv2
 import numpy as np
 
