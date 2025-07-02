@@ -1,4 +1,5 @@
 # -*- coding: utf-8 -*-
+#Author: Lart Pang (https://github.com/lartpang) 
 import copy
 import logging
 import os
