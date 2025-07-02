@@ -1,7 +1,5 @@
 # -*- coding: utf-8 -*-
-# @Time    : 2020
-# @Author  : Lart Pang
-# @GitHub  : https://github.com/lartpang
+#Author: Lart Pang (https://github.com/lartpang) 
 import torch
 import torch.nn.functional as F
 
