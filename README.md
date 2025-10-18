@@ -14,6 +14,7 @@
 ## Introduction
 
 ## Network
+This diagram illustrates the overall architecture of MSRNet. 
 ![Methodology](MethodologyDiagram.png)
 
 ## Data Preparation
@@ -110,8 +111,8 @@ The prediction results of our highest-performing model (PvtV2B4_MSRNet) on [CAMO
 
 ### MSRNet Visual Results
 
-
-
+A visual Comparison showing the superiority of MSRNet in detecting multiple (rows 1-3), small (rows 4 and 5), and tiny (rows 6 and 7) camouflaged objects.
+![visual-Comparison]()
 
 
 
