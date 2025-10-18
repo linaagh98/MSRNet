@@ -1,5 +1,6 @@
 # MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection.
- 
+The model was built using PyTorch on an NVIDIA RTX A6000 GPU with a total memory size of 48 GB.
+
 ## Contents
 1. [Introduction](#Introduction)
 2. [Network](#Network)
