@@ -2,7 +2,7 @@
  MSRNet: A Multi-Scale Recursive Network for Camouflaged Object Detection.
  
 ## Contents
-1. [Introduction](## Introduction)
+1. [Introduction](#Introduction)
 2. [Network](## Network)
 4. [Data Preparation](## Data Preparation)
 5. [Requirements Installation](## Requirements Installation)
