@@ -3,13 +3,13 @@
  
 ## Contents
 1. [Introduction](#Introduction)
-2. [Network](## Network)
-4. [Data Preparation](## Data Preparation)
-5. [Requirements Installation](## Requirements Installation)
-6. [Training](## Training)
-7. [Evaluation](## Evaluation)
-8. [Results](## Results)
-9. [Acknowledgement](## Acknowledgment)
+2. [Network](#Network)
+4. [Data Preparation](#Data-Preparation)
+5. [Requirements Installation](#Requirements-Installation)
+6. [Training](#Training)
+7. [Evaluation](#Evaluation)
+8. [Results](#Results)
+9. [Acknowledgement](#Acknowledgment)
 
 ## Introduction
 
