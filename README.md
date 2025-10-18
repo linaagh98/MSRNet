@@ -15,7 +15,7 @@
 
 ## Network
 This diagram illustrates the overall architecture of MSRNet. 
-![Methodology](MethodologyDiagram.png)
+![Methodology](images/MethodologyDiagram.png)
 
 ## Data Preparation
 In this research, we utilized four benchmark datasets for camouflaged object detection (CAMO, CHAMELEON, COD10K, and NC4K).
@@ -112,7 +112,7 @@ The prediction results of our highest-performing model (PvtV2B4_MSRNet) on [CAMO
 ### MSRNet Visual Results
 
 A visual Comparison showing the superiority of MSRNet in detecting multiple (rows 1-3), small (rows 4 and 5), and tiny (rows 6 and 7) camouflaged objects.
-![visual-Comparison]()
+![visual-Comparison](images/VisualComparison.png)
 
 
 
